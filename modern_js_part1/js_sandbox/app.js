@@ -48,18 +48,21 @@ let val;
 val = 5;
 
 //number to string
-val = String(5); // "5"
+//val = String(5); // "5"
 //array to string
 //val = String([12,3,4]);//"12,3,4"
 
 //val = (747474.422).toString(); //Returns "747474.422"
 
+//string to number
+//val = Number("5");
+
+//console.log(val.toFixed());
+
+//String to number
+val = parseInt("100");
+
 //output
-console.log(val);
-console.log(typeof val);
+console.log("val: " + val);
+console.log("type of val: " + typeof val);
 //console.log(val.length); //.length only works on strings
-
-val = Number("5"); //Turn 5 from string to number
-
-console.log(val.toFixed());
-
