@@ -21,6 +21,16 @@ const person = {
     age: "22"
 }
 
+//Method Syntax
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
 //you can still add properties to constant objects using dot notation
 
 //console.log(person);
