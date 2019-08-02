@@ -49,6 +49,13 @@ var myMother = new Person("Sally", "Rally", 48, "green");
 document.getElementById("demo").innerHTML =
 "My father is " + myFather.nationality + ". My mother is " + myMother.nationality; 
 
+//Constructing new objects
+var person = new Object();
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
+
 //you can still add properties to constant objects using dot notation
 
 //console.log(person);
