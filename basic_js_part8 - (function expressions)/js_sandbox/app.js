@@ -1,21 +1,13 @@
 //fn Syntax
-hello = function() {
-  return "Hello World!";
-}
+function funcName(params) {
+   return params + 2;
+ }
+funcName(2);
+// 4
 
-//Arrow fn syntax
-hello = () => {
-  return "Hello World!";
-}
-
-//Arrow Functions Return Value by Default:
-hello = () => "Hello World!";
-
-//Arrow Function With Parameters:
-hello = (val) => "Hello " + val;
-
-//Arrow Function Without Parentheses:
-hello = val => "Hello " + val;
+var funcName = (params) => params + 2
+funcName(2);
+// 4
 
 //Function expressions
 const square = function(x){
