@@ -86,7 +86,7 @@ format z: = format z drive [Ex: use to format a disc or flash drive]
 mkdir x = make directory x in current directory
 ```
 ```
-move x y = more or rename x to y
+move x y = move or rename x to y
 ```
 ```
 rd x = remove/delete directory x if it’s empty
